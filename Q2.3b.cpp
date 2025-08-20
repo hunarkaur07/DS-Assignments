@@ -16,7 +16,11 @@ int findmissing(int arr[],int n){
             high=mid-1;
         }
     }
+<<<<<<< HEAD
     return 1;
+=======
+    return -1;
+>>>>>>> c9b063cb346804d13114fa56f86635cf20344d2d
 }
 
 int main(){
