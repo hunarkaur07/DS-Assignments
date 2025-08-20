@@ -8,8 +8,9 @@ int main() {
 
     int A[n];
     cout << "Enter elements of array:\n";
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++){
         cin >> A[i];
+    }    
 
     int distinct = 0;
     for (int i = 0; i < n; i++) {
